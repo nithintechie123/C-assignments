@@ -5,3 +5,4 @@
  ii)reads the nth student structure from the file,f1 and displays it to standard output
  device.
 */
+
