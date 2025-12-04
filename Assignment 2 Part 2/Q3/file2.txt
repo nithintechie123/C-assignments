@@ -1,0 +1,10 @@
+This is file2.
+It already has some content.
+After appending, more text will appear below.
+This is file1.
+It contains some text.
+We will append this to file2.
+This is file1.
+It contains some text.
+Nithin Kumar
+We will append this to file2.

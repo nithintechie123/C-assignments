@@ -1,0 +1,4 @@
+This is file1.
+It contains some text.
+Nithin Kumar
+We will append this to file2.
