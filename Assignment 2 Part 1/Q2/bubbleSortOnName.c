@@ -55,7 +55,7 @@ int main()
         {
             if (strcmp(s[j].name, s[j + 1].name) > 0)//Compare names for sorting using strcmp
             {
-                temp = s[j];
+                temp=s[j];
                 s[j] = s[j + 1];
                 s[j + 1] = temp;
             }
