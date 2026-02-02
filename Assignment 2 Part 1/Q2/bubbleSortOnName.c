@@ -19,12 +19,11 @@ int main()
     Student s[30];//Array of student structures
     int i, j, n;//n is number of students
 
-    //Input number of students and their details
-    printf("Enter the number of students (max 30): ");
-    if (scanf("%d", &n) != 1) {                // validate input
-        printf("Invalid input. Exiting.\n");
-        return 1;
-    }
+    printf("Enter the number of students (max 30):\n");
+    printf("Enter the n value:\n");
+    scanf("%d",&n);
+
+    //Input number of students and their details 
     if (n < 1 || n > 30) {                     // bounds check
         printf("Number of students must be between 1 and 30. Exiting.\n");
         return 1;

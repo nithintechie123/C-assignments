@@ -1,8 +1,23 @@
 #include <stdio.h>
 
+void hanoi(int n, char from, char to, char aux);
+int main()
+{
+    int n;
+    printf("Enter number of disks: ");
+    scanf("%d", &n);
+
+    printf("\nSolution:\n");
+    hanoi(n, 'A', 'C', 'B');
+
+    return 0;
+}
+
 // Recursive function to solve Towers of Hanoi
-void hanoi(int n, char from, char to, char aux) {
-    if (n == 1) {
+void hanoi(int n, char from, char to, char aux)
+{
+    if (n == 1)
+    {
         printf("Move disk 1 from %c to %c\n", from, to);
         return;
     }
@@ -15,15 +30,4 @@ void hanoi(int n, char from, char to, char aux) {
 
     // Step 3: Move n-1 disks from auxiliary to target
     hanoi(n - 1, aux, to, from);
-}
-
-int main() {
-    int n;
-    printf("Enter number of disks: ");
-    scanf("%d", &n);
-
-    printf("\nSolution:\n");
-    hanoi(n, 'A', 'C', 'B');
-
-    return 0;
 }

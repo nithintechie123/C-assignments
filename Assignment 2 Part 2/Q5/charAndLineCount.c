@@ -36,12 +36,12 @@ int main(int argc, char *argv[])
         }
     }
 
-    // Close the file
-    fclose(fp);
-
     if(charCount>0 && ch!='\n'){
         lineCount++;
     }
+
+    // Close the file
+    fclose(fp);
 
     // Display the results
     printf("Total Characters: %d\n", charCount);

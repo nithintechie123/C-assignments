@@ -45,7 +45,7 @@ void multiplayMatrices(int r1,int c1,int r2,int c2,int A[r1][c1],int B[r2][c2],i
         for(int j=0;j<c2;j++){
             C[i][j]=0;
             for(int k=0;k<c1;k++){
-                C[i][j]+=A[i][k]*B[k][j];
+                 C[i][j]+=A[i][k]*B[k][j];
             }
         }
     }

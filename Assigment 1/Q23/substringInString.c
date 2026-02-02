@@ -20,7 +20,7 @@ int main() {
     fgets(S, sizeof(S), stdin);        // read full line including newline
 
     S[strcspn(S, "\n")] = '\0';        // remove newline (replace '\n' with '\0')
-
+  
     // -------------------- INPUT STRING T --------------------
     printf("Enter string T: ");
     fgets(T, sizeof(T), stdin);        // reads substring including newline

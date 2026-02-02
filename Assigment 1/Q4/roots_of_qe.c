@@ -5,8 +5,8 @@ int main()
 {
     float a, b, c, root1, root2, discriminant, realPart, imaginaryPart; // declare variables
     printf("Enter the coefficients of a,b and c:");                     // a,b and c are coefficients of the quadratic equation
-    scanf("%f %f %f", &a, &b, &c);  
-    printf("---------------------\n");                                    // input coefficients
+    scanf("%f %f %f", &a, &b, &c);
+    printf("---------------------\n"); // input coefficients
 
     discriminant = b * b - 4 * a * c; // calculate discriminant
 
@@ -28,7 +28,7 @@ int main()
         realPart = -b / (2 * a);
         imaginaryPart = sqrt(-discriminant) / (2 * a);
         printf("Roots are complex and imaginary.\n");
-        printf("Root1 = %.2f+%.2f i and Root2 = %.2f-%.2fi", realPart, imaginaryPart, realPart, imaginaryPart);
+        printf("Root1 = (real=%.2f),(imag=%.2f)  and Root2 = (real=%.2f),(imag=%.2f)", realPart, imaginaryPart, realPart, imaginaryPart);
     }
     return 0;
 }

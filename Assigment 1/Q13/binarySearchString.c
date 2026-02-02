@@ -49,7 +49,7 @@ int binarySearchRecursion(char a[][50], int lb, int ub, char key[])
     else
     {
         return binarySearchRecursion(a, lb, mid - 1, key);
-    }
+    } 
 }
 
 int main()

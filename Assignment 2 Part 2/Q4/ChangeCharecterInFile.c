@@ -1,6 +1,6 @@
 /*
  4.Write a C Program to change the nth character of a file called f1 to M. It takes the
- filename, f1,the value n and the character, M as command-line arguments.
+ filename f1,the value n and the character M, as command-line arguments.
  */
 
 #include <stdio.h>

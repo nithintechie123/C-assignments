@@ -44,5 +44,7 @@ int main()
     // Close both files to free resources
     fclose(fp1);
     fclose(fp2);
+
+    
     return 0;
 }

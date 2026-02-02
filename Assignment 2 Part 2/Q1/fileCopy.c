@@ -21,6 +21,7 @@ int main()
     // Check whether the source file opened successfully
     if (source == NULL)
     {
+        perror("Error opening file");
         printf("Error:Cannot open input file!\n");
         return 1; // Exit the program with error code 1
     }
@@ -35,6 +36,7 @@ int main()
     // Check whether the target file opened successfully
     if (target == NULL)
     {
+        perror("Error opening file2");
         printf("Error:Cannot open or create output file!\n");
         // Since source was already opened successfully, close it before exiting
         fclose(source);

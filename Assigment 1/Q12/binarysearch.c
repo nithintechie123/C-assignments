@@ -37,7 +37,7 @@ int binarySearchRecursive(int a[],int lb,int ub,int key){
 }
 
 int main(){
-    int n,mid,lb,ub,key,flag=0;
+    int n,mid,lb,ub,key;
     printf("Enter the number of elements to be entered in the array:\n");
     scanf("%d",&n);
 

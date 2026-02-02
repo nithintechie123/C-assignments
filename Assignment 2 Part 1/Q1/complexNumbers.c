@@ -27,7 +27,7 @@ Complex mulComplex(Complex num1, Complex num2)
     result.real = (num1.real * num2.real) - (num1.imag * num2.imag);
 
     // Calculate the imaginary part:
-    result.imag = (num1.real * num2.imag) + (num2.real * num1.imag);
+    result.imag = (num1.real * num2.imag) + ( num1.imag*num2.real );
 
     return result; // Return the final complex result
 }
