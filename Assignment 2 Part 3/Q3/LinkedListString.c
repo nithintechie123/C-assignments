@@ -1,3 +1,9 @@
+
+// 3. Write a C Program to perform the following:
+//  i) create a linked list of names(strings), traverse and display its contents.
+//  ii) search for a name 
+
+
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>

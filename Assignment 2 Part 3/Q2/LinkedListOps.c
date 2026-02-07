@@ -1,3 +1,7 @@
+//  i) create a linked list of integers.
+//  ii) reverse the links in the above list, traverse and display its contents.
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
