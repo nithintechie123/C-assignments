@@ -40,7 +40,7 @@ Node *deleteName(Node *head,char searchName[]){
     Node *temp=head;
     Node *prev=NULL;
 
-    while(temp!=NULL && strcmp(temp->name,searchName)==0){
+    if(temp!=NULL && strcmp(temp->name,searchName)==0){
         head=temp->next;
         free(temp);
         printf("Name %s deleted successfully.\n",searchName);
